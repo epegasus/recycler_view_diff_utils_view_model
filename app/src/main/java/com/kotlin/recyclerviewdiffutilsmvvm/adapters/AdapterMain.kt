@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.kotlin.recyclerviewdiffutilsmvvm.R
-import com.kotlin.recyclerviewdiffutilsmvvm.data_classes.Student
 import com.kotlin.recyclerviewdiffutilsmvvm.databinding.ListItemStudentBinding
 import com.kotlin.recyclerviewdiffutilsmvvm.interfaces.OnItemClickListener
+import com.kotlin.recyclerviewdiffutilsmvvm.models.Student
 
 class AdapterMain(private val onItemClickListener: OnItemClickListener) : ListAdapter<Student, AdapterMain.ViewHolderMain>(DiffUtilsStudent) {
 
